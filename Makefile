@@ -3,7 +3,7 @@ TARGET   = 	Restart
 TITLE    =  Restart
 OBJS     = 	main.o			
 
-LIBS = -lSceVshBridge_stub
+LIBS = -lScePower_stub
 	
 PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
